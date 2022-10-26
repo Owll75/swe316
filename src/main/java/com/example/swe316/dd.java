@@ -50,6 +50,7 @@ public class dd {
 //            System.out.println(arrayList);
 //            System.out.println(3);
             aee.clear();
+            System.out.println("yyy");
 //            System.out.println(count2);
         }
         System.out.println(objects.get(1).toString());
