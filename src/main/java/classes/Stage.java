@@ -3,7 +3,6 @@ package classes;
 public class Stage {
     private String objValue;
     private int docNumber;
-//    private String nodeID;
     private int oldValue;
     private int newValue;
     private String date;
@@ -41,7 +40,6 @@ public class Stage {
         return "Stage{" +
                 "objValue='" + objValue + '\'' +
                 ", docNumber=" + docNumber +
-//                ", nodeID='" + nodeID + '\'' +
                 ", oldValue=" + oldValue +
                 ", newValue=" + newValue +
                 '}';

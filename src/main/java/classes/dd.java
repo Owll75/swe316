@@ -16,3 +16,13 @@ public class dd {
 //        hh.readStagesDetails(path2);
     }
 }
+
+
+
+//if u want to use my class reader use this to test it
+
+//    reader read = new reader();
+//
+//        for (Stage x : read.readStagesDetails("Stages_Detailed.xls",read.readStages("Stages.xls"))){
+//                System.out.println(x);
+//                }
