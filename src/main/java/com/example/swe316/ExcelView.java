@@ -66,15 +66,14 @@ public class ExcelView extends Pane {
 
     private void setTable() {
         table = new TableView();
-        projectArrayList = read.getProjects_list();
 
-//        try {
-//            projectArrayList = new Reader().getProjectList();
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        } catch (ParseException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            projectArrayList = read.getProjects_list();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (ParseException e) {
+           throw new RuntimeException(e);
+      }
 
         colIndex = new TableColumn("index");
         colProject_ID = new TableColumn("Project ID");
